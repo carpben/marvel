@@ -4,7 +4,6 @@ import { State } from "../tools/data"
 import { fetchHeros } from "../tools/requests"
 
 const sideEffectMiddleware: MiddlewareBody<State, AppAction> = (dispatch, getState, next, action) => {
-	console.log(action.type)
 	switch (action.type) {
 		case ACTION_TYPE.INIT: {
 			fetchHeros()

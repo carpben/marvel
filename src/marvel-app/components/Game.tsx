@@ -33,6 +33,7 @@ export const Game: DRFC = () => {
 									heroId: heroId,
 								})
 							}}
+							key={heroId}
 						>
 							<HeroCard id={heroId} />
 						</div>

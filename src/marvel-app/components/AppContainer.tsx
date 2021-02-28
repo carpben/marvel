@@ -9,7 +9,6 @@ import { LeaderBoard } from "./LeaderBoard"
 
 export const AppContainer: DRFC = () => {
 	const mode = useAppSelector((st) => selectors.getMode(st))
-	console.log(mode)
 
 	return (
 		<div
