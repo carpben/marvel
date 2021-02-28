@@ -14,7 +14,11 @@ export const LeaderBoard: DRFC = () => {
 	const dispatch = useAppDispatch()
 
 	return (
-		<div>
+		<div
+			css={{
+				marginBottom: 100,
+			}}
+		>
 			<h2>Hall of fame</h2>
 			<div
 				css={{
