@@ -1,9 +1,9 @@
-import React from "react";
-import { render, screen } from "@testing-library/react";
-import App from "./marvel-app/components/App";
+import React from "react"
+import { render, screen } from "@testing-library/react"
+import MarvelApp from "./marvel-app/MarevelApp"
 
 test("renders learn react link", () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+	render(<MarvelApp />)
+	const linkElement = screen.getByText(/dual/i)
+	expect(linkElement).toBeInTheDocument()
+})
