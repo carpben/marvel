@@ -1,12 +1,7 @@
 /** @jsxImportSource @emotion/react */
-import { css, jsx } from "@emotion/react"
-import { useSelector } from "react-redux"
-import { Button } from "../../components/Button"
-import { styleClickable } from "../../utils/styles"
 import { DRFC } from "../../utils/types"
-import { ACTION_TYPE } from "../tools/actions"
-import { useAppDispatch, useAppSelector } from "../tools/reduxHooks"
-import { GAME_MODE, selectors } from "../tools/selectors"
+import { useAppSelector } from "../tools/reduxHooks"
+import { selectors } from "../tools/selectors"
 import { ID } from "../tools/types"
 
 interface Props {

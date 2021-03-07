@@ -1,12 +1,10 @@
 /** @jsxImportSource @emotion/react */
-import { jsx } from "@emotion/react"
 import { useState } from "react"
-import { useSelector } from "react-redux"
 import { styleClickable } from "../../utils/styles"
 import { DRFC } from "../../utils/types"
 import { ACTION_TYPE } from "../tools/actions"
 import { useAppDispatch, useAppSelector } from "../tools/reduxHooks"
-import { GAME_MODE, selectors } from "../tools/selectors"
+import { selectors } from "../tools/selectors"
 import { ID } from "../tools/types"
 import { GameProgress } from "./GameProgress"
 import { HeroCard } from "./HeroCard"

@@ -1,11 +1,8 @@
 /** @jsxImportSource @emotion/react */
-import { jsx } from "@emotion/react"
-import { useSelector } from "react-redux"
 import { getPercentage } from "../../utils/numbers"
 import { DRFC } from "../../utils/types"
 import { useAppSelector } from "../tools/reduxHooks"
-import { GAME_MODE, selectors } from "../tools/selectors"
-import { HeroCard } from "./HeroCard"
+import { selectors } from "../tools/selectors"
 
 interface Props {
 	className?: string

@@ -1,12 +1,9 @@
 /** @jsxImportSource @emotion/react */
-import { jsx } from "@emotion/react"
-import { useDispatch, useSelector } from "react-redux"
 import { Button } from "../../components/Button"
 import { DRFC } from "../../utils/types"
 import { ACTION_TYPE } from "../tools/actions"
 import { useAppDispatch, useAppSelector } from "../tools/reduxHooks"
-import { GAME_MODE, selectors } from "../tools/selectors"
-import { ID } from "../tools/types"
+import { selectors } from "../tools/selectors"
 import { HeroCard } from "./HeroCard"
 
 export const LeaderBoard: DRFC = () => {
